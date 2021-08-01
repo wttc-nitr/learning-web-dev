@@ -16,3 +16,7 @@
  h3 {
    color: #66BFBF;
  }
+
+.circular {
+  border-radius: 70px;
+}
