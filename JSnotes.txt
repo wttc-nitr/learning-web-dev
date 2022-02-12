@@ -1,1 +1,16 @@
-hello world
+var myName = "animesh";
+var yourName;
+yourName = prompt("what's your name ??");    // alerts and gives a promt for input, here input is stored in yourName
+alert("hi " + yourName + ", nice to meet you. My name is " + myName + ", have fun.");
+
+myName.length  ; // stringVariable.length gives string size
+alert( myName.slice(0, 3) ) ; // string.slice (first index, upto index -1) 
+
+string.toUpperCase() ; // all characters upper cased
+string.toLowerCase() ; // all characters lower cased 
+
+typeof <variable or const> ; type of variable, like bool, number or string
+
+-----------  ---------------------------
+var n = Math.random();   // random number generator
+n = Math.floor(); // return floor value 
