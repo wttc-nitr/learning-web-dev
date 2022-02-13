@@ -14,3 +14,17 @@ typeof <variable or const> ; type of variable, like bool, number or string
 -----------  ---------------------------
 var n = Math.random();   // random number generator
 n = Math.floor(); // return floor value 
+
+a === b; // 1 === '1' -> false
+a == b;  // 1 == '1'  -> true
+
+var arr = ["hello", "world"]; // creates an array
+arr.length;						// length of the array
+console.log(arr);			// print the whole array
+
+arr.includes("hello"); // return boolean value 
+
+arr.push(x); // adds x at the end of the array
+arr.pop;  // removes the last element
+
+------------- Start from DOM ------------
