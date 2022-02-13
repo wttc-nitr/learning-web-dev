@@ -27,4 +27,4 @@ arr.includes("hello"); // return boolean value
 arr.push(x); // adds x at the end of the array
 arr.pop;  // removes the last element
 
-------------- Start from DOM ------------
+------------- Start from DOM ------------ DOM lecture 2 , 5:28
