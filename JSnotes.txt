@@ -53,3 +53,5 @@ document.querySelector("h1").classList.toggle("huge"); // toggle the huge class
 .querySelector("li a").attributes;			// returns all the attributes of an element
 .querySelector("li a").getAttribute("href"); // returns the value of the specified attribute
 .querySelector("li a").setAttribute("href", "https://duckduckgo.com"); // changes the value of the specified attribute
+
+-------------------- Start from Dice Game  -----------------------------
