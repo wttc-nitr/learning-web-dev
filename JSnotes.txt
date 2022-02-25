@@ -41,4 +41,9 @@ example -> document.querySelector("input").click(); // searches for input tag an
 .querySelector("li a"); // returns the anchor tag which is in the list ->hierarchical selector
 
 .getElementsByTagName("li"); // returns an array of all the list tags
+
+document.querySelector("h1").style.backgroundColor = "yellow"; // changes background color of first h1 tag to yellow
  
+document.querySelector("h1").classList; // returns the list of class given to first h1 tag
+document.querySelector("h1").classList.add("huge"); // add huge class to the class of first h1 tag
+document.querySelector("h1").classList.toggle("huge"); // toggle the huge class
