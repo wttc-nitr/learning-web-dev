@@ -47,3 +47,9 @@ document.querySelector("h1").style.backgroundColor = "yellow"; // changes backgr
 document.querySelector("h1").classList; // returns the list of class given to first h1 tag
 document.querySelector("h1").classList.add("huge"); // add huge class to the class of first h1 tag
 document.querySelector("h1").classList.toggle("huge"); // toggle the huge class
+
+.innerHTML and .textContent are almost similar, but former can add extra html.
+
+.querySelector("li a").attributes;			// returns all the attributes of an element
+.querySelector("li a").getAttribute("href"); // returns the value of the specified attribute
+.querySelector("li a").setAttribute("href", "https://duckduckgo.com"); // changes the value of the specified attribute
