@@ -27,4 +27,18 @@ arr.includes("hello"); // return boolean value
 arr.push(x); // adds x at the end of the array
 arr.pop;  // removes the last element
 
-------------- Start from DOM ------------ DOM lecture 2 , 5:28
+------------- ------------ 
+.innerHTML = "some_text"; 			// changes the text of the specified element
+.style.color = "red"; 				// changes the color of the specified element to red
+document.querySelector("tag_name"); // searches the whole web-page for the given tag, returns the first tag only;
+document.querySelectorAll("tag_name"); // returns the all tags and not just the first one ( array )
+document.querySelector("#id_name"); // id selector, search for id_name
+document.querySelector("h1");		// search of h1 tag
+document.querySelector(".btn");		// search class with name btn
+example -> document.querySelector("input").click(); // searches for input tag and make it click;
+
+.querySelector("a"); // returns the first anchor tag
+.querySelector("li a"); // returns the anchor tag which is in the list ->hierarchical selector
+
+.getElementsByTagName("li"); // returns an array of all the list tags
+ 
