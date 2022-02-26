@@ -73,6 +73,10 @@ buttonArray[i].addEventListener("click", function () {
     console.log(this);									-> 'this' object tells which button got clicked
   });
 
+buttonArray[i].addEventListener("click", function () {
+    this.style.color = "blue";					-> changes the color of the button(which just got clicked) to blue
+  });
+
 var student = {
 	name: "john Doe",
 	rollNo: "12B9",
