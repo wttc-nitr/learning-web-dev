@@ -60,7 +60,30 @@ document.querySelector("button").addEventListener("click", function (){  -> anon
   // do something here
 });
 
-high order functions -> functions that can accept function as arguement and can return function
+event listener to grab mouse clicks and keyboard inputs
+
+higher order functions -> functions that can accept function as arguement and can return function
 
 debugger;
 calculator(3, 5, add); -> above two lines to use debugger for calculator function.
+
+__________________________  __________________
+
+buttonArray[i].addEventListener("click", function () {
+    console.log(this);									-> 'this' object tells which button got clicked
+  });
+
+var student = {
+	name: "john Doe",
+	rollNo: "12B9",
+	department: "mathematics"					-> object
+	age: 22;
+}
+
+function Student (name, rollNo, department, age) {
+    this.name = name;
+    this.rollNo = rollNo;
+    this.department = department;				-> object constructor function
+    this.age = age;
+}
+
