@@ -74,7 +74,7 @@ buttonArray[i].addEventListener("click", function () {
   });
 
 buttonArray[i].addEventListener("click", function () {
-    this.style.color = "blue";					-> changes the color of the button(which just got clicked) to blue
+    this.style.color = "blue";					 -> changes the color of the button(which just got clicked) to blue
   });
 
 var student = {
