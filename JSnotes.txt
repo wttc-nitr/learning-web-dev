@@ -54,4 +54,13 @@ document.querySelector("h1").classList.toggle("huge"); // toggle the huge class
 .querySelector("li a").getAttribute("href"); // returns the value of the specified attribute
 .querySelector("li a").setAttribute("href", "https://duckduckgo.com"); // changes the value of the specified attribute
 
--------------------- Start from Advanced JS and DOM -----------------------------
+--------------------  -----------------------------
+
+document.querySelector("button").addEventListener("click", function (){  -> anonymous function.
+  // do something here
+});
+
+high order functions -> functions that can accept function as arguement and can return function
+
+debugger;
+calculator(3, 5, add); -> above two lines to use debugger for calculator function.
