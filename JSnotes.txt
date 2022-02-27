@@ -91,4 +91,9 @@ function Student (name, rollNo, department, age) {
     this.age = age;
 }
 
-______________________________ Start from Advanced JS and DOM, lecture 9, 3:20 _________________
+var new_student = new Student("abc", "123", "def", 25); // new object created
+
+______________________________   _________________
+document.addEventListener("keydown", function(event) {
+	console.log(event.key);								-> shows which key was pressed
+})
